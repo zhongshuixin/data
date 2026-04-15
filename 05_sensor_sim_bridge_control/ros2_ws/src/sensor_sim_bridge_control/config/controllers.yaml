@@ -1,0 +1,33 @@
+# ros2_control 控制器示例配置（教学用）。
+#
+# 说明：
+# - 本项目核心演示链路是“相机 -> bridge -> image_trigger_arm 发布 commands”。
+# - 该文件提供一个典型的 controller_manager + forward_command_controller 配置，
+#   用于把 /arm_forward_controller/commands（Float64MultiArray）作为关节 position 指令输入。
+# - 真实系统中需要加载硬件接口或 Gazebo ros2_control 插件才能使控制器真正驱动模型。
+
+controller_manager:
+  ros__parameters:
+    # 控制器管理器更新频率（Hz）。
+    update_rate: 100
+
+    joint_state_broadcaster:
+      # 发布 /joint_states 的标准广播器。
+      type: joint_state_broadcaster/JointStateBroadcaster
+
+    arm_forward_controller:
+      # 简单前馈控制器：直接把数组命令写到指定接口（这里是 position）。
+      type: forward_command_controller/ForwardCommandController
+
+arm_forward_controller:
+  ros__parameters:
+    # 关节列表顺序必须与 commands 数组顺序一致。
+    joints:
+      - shoulder_pan_joint
+      - shoulder_lift_joint
+      - elbow_joint
+      - wrist_1_joint
+      - wrist_2_joint
+      - wrist_3_joint
+    # 控制接口名称：position / velocity / effort，取决于硬件接口导出的 command interface。
+    interface_name: position

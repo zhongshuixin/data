@@ -1,0 +1,142 @@
+<?xml version="1.0" ?>
+<sdf version="1.8">
+  <world name="sorting_demo">
+    <!--
+      sorting_demo.world：
+      - 用于教学演示“传感器仿真 + ROS2 桥接 + 最小闭环触发控制”的 world。
+      - 世界内包含：
+        1) 地面（ground_plane）
+        2) 一个目标方块（target_box），用于给相机提供可见目标
+        3) 工业相机支架（industrial_camera_rig），包含一个 camera sensor
+
+      关键话题（Gazebo / Ignition Transport）：
+      - /sim/camera/rgb：相机图像（由 <sensor><topic> 指定）
+      - /sim/camera/camera_info：相机内参（由 Gazebo 传感器系统自动发布）
+
+      注意：
+      - 传感器能否发布话题依赖 Sensors 系统插件；
+      - 这里显式加入 Physics / SceneBroadcaster / UserCommands / Sensors，
+        以避免某些版本“默认系统未加载”导致传感器无输出的问题。
+    -->
+
+    <!-- 重力向量（m/s^2）。 -->
+    <gravity>0 0 -9.8</gravity>
+
+    <plugin
+      filename="ignition-gazebo-physics-system"
+      name="gz::sim::systems::Physics">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-user-commands-system"
+      name="gz::sim::systems::UserCommands">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-scene-broadcaster-system"
+      name="gz::sim::systems::SceneBroadcaster">
+    </plugin>
+    <plugin
+      filename="ignition-gazebo-sensors-system"
+      name="gz::sim::systems::Sensors">
+    </plugin>
+
+    <!-- 场景主光源（directional light）。 -->
+    <light type="directional" name="sun">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <!-- 地面：静态模型，用 plane 几何表示。 -->
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>20 20</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.7 0.7 0.7 1</ambient>
+            <diffuse>0.7 0.7 0.7 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="target_box">
+      <!-- 目标方块：静态模型，放在相机前方。 -->
+      <static>true</static>
+      <pose>1.5 0 0.1 0 0 0</pose>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.2 0.2 0.2</size>
+            </box>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.2 0.2 0.2</size>
+            </box>
+          </geometry>
+          <material>
+            <ambient>0.9 0.2 0.2 1</ambient>
+            <diffuse>0.9 0.2 0.2 1</diffuse>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="industrial_camera_rig">
+      <!-- 相机支架：静态模型，将相机抬高到 1.2m。 -->
+      <static>true</static>
+      <pose>0 0 1.2 0 0 0</pose>
+      <link name="camera_link">
+        <sensor name="industrial_rgb" type="camera">
+          <!-- 传感器相对 camera_link 的位姿（x y z roll pitch yaw）。 -->
+          <pose>0 0 0 0 0 0</pose>
+          <always_on>true</always_on>
+          <update_rate>30</update_rate>
+          <visualize>true</visualize>
+          <!-- 图像话题名（Gazebo / Ignition Transport），供 ros_gz_bridge 桥接。 -->
+          <topic>/sim/camera/rgb</topic>
+          <camera>
+            <!-- 水平视场角（弧度），1.047 rad ≈ 60°。 -->
+            <horizontal_fov>1.047</horizontal_fov>
+            <image>
+              <!-- 输出图像分辨率与像素格式。 -->
+              <width>1280</width>
+              <height>720</height>
+              <format>R8G8B8</format>
+            </image>
+            <clip>
+              <!-- 裁剪平面：相机可见的最近/最远距离（米）。 -->
+              <near>0.1</near>
+              <far>8.0</far>
+            </clip>
+            <noise>
+              <!-- 噪声模型：高斯噪声，用于模拟传感器误差。 -->
+              <type>gaussian</type>
+              <mean>0.0</mean>
+              <stddev>0.001</stddev>
+            </noise>
+          </camera>
+        </sensor>
+      </link>
+    </model>
+  </world>
+</sdf>
