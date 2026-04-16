@@ -1,0 +1,5 @@
+{"raw_text":"把机械臂回零","canonical_action":"arm.home","slots":{}}
+{"raw_text":"回到原点","canonical_action":"arm.home","slots":{}}
+{"raw_text":"从 3 号进料箱抓取，放到玻璃出料箱","canonical_action":"arm.pick_place","slots":{"from":"bin_in_3","to":"bin_out_glass","speed":0.5}}
+{"raw_text":"停下","canonical_action":"arm.stop","slots":{}}
+{"raw_text":"急停！","canonical_action":"arm.e_stop","slots":{}}
