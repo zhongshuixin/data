@@ -1,0 +1,4 @@
+[console_scripts]
+motion_api_test = motion_api.motion_planning_python_api:main
+pick_drop = motion_api.pick_drop:main
+pick_rose_drop = motion_api.pick_rose_drop:main

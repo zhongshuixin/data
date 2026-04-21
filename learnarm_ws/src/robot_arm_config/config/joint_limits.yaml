@@ -1,0 +1,51 @@
+# 关节动态限制配置（覆盖或补充 URDF 中的限制）
+
+# 初学者默认降低速度/加速度，规划请求中可提升缩放系数（≤1.0）
+# 如需最大速度，可将以下两个缩放因子提升到 1.0
+default_velocity_scaling_factor: 0.1
+default_acceleration_scaling_factor: 0.1
+
+# 可配置项：
+# - max_position/min_position/max_velocity/max_acceleration
+# - has_velocity_limits/has_acceleration_limits 可开关限制
+joint_limits:
+  hand_left_joint:
+    has_velocity_limits: true
+    max_velocity: 0.029999999999999999
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  hand_right_joint:
+    has_velocity_limits: true
+    max_velocity: 0.029999999999999999
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  joint1:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  joint2:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  joint3:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  joint4:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  joint5:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: true
+    max_acceleration: 2.0
+  joint6:
+    has_velocity_limits: true
+    max_velocity: 1.0
+    has_acceleration_limits: true
+    max_acceleration: 2.0

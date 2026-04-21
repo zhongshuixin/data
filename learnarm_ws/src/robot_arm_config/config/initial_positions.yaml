@@ -1,0 +1,12 @@
+# 初始关节位置（供 ros2_control 仿真系统 FakeSystem 使用）
+# - 被 `arm.ros2_control.xacro` 读取并写入每个关节的 state_interface.position
+# - 便于仿真启动时保持稳定姿态
+
+initial_positions:
+  hand_right_joint: 0
+  joint1: 0
+  joint2: 0
+  joint3: 0
+  joint4: 0
+  joint5: 0
+  joint6: 0

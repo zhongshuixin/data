@@ -1,0 +1,1 @@
+/home/sx/week04/learnarm_ws/build/arm1/launch/robot_arm_publisher_ros2_control_launch.py

@@ -1,0 +1,20 @@
+[3.371s] Invoking command in '/home/sx/week04/learnarm_ws/build/arm1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/arm1/build --no-deps symlink_data
+[3.972s] running develop
+[4.326s] running egg_info
+[4.361s] writing arm1.egg-info/PKG-INFO
+[4.361s] writing dependency_links to arm1.egg-info/dependency_links.txt
+[4.362s] writing entry points to arm1.egg-info/entry_points.txt
+[4.362s] writing requirements to arm1.egg-info/requires.txt
+[4.362s] writing top-level names to arm1.egg-info/top_level.txt
+[4.436s] reading manifest file 'arm1.egg-info/SOURCES.txt'
+[4.471s] writing manifest file 'arm1.egg-info/SOURCES.txt'
+[4.521s] running build_ext
+[4.521s] Creating /home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages/arm1.egg-link (link to .)
+[4.523s] Installing joint_control script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+[4.523s] Installing test_arm_action script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+[4.524s] Installing test_arm_hand script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+[4.524s] Installing test_arm_publisher script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+[4.524s] 
+[4.524s] Installed /home/sx/week04/learnarm_ws/build/arm1
+[4.525s] running symlink_data
+[4.672s] Invoked command in '/home/sx/week04/learnarm_ws/build/arm1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/arm1/build --no-deps symlink_data

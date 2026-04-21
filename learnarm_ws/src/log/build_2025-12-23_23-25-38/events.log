@@ -1,0 +1,9 @@
+[0.000000] (-) TimerEvent: {}
+[0.004955] (-) JobUnselected: {'identifier': 'arm1'}
+[0.005055] (motion_api) JobQueued: {'identifier': 'motion_api', 'dependencies': OrderedDict()}
+[0.005095] (robot_arm_config) JobQueued: {'identifier': 'robot_arm_config', 'dependencies': OrderedDict({'arm1': '/home/sx/week04/learnarm_ws/src/install/arm1'})}
+[0.005131] (motion_api) JobStarted: {'identifier': 'motion_api'}
+[0.015747] (robot_arm_config) JobStarted: {'identifier': 'robot_arm_config'}
+[0.035900] (robot_arm_config) JobEnded: {'identifier': 'robot_arm_config', 'rc': 1}
+[0.037145] (motion_api) JobEnded: {'identifier': 'motion_api', 'rc': 'SIGINT'}
+[0.048956] (-) EventReactorShutdown: {}

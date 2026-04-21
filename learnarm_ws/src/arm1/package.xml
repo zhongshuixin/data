@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>arm1</name>
+  <version>0.0.0</version>
+  <description>A simple arm robot package for ROS 2 Jazzy</description>
+  <maintainer email="sx@todo.todo">sx</maintainer>  <!-- 请更新 -->
+  <license>MIT</license>
+
+  <!-- 构建、编译时依赖 -->
+  <depend>rclpy</depend>
+  <depend>std_msgs</depend>
+  
+  <!-- 新增：关键运行时依赖 -->
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend> <!-- 未来若使用Xacro文件需要 -->
+  <exec_depend>ros2_control</exec_depend>
+  <exec_depend>controller_manager</exec_depend>
+  <exec_depend>joint_trajectory_controller</exec_depend>
+  <exec_depend>forward_command_controller</exec_depend>
+  <exec_depend>joint_state_broadcaster</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

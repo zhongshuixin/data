@@ -1,0 +1,39 @@
+from setuptools import setup
+import os
+from glob import glob
+
+package_name = 'motion_api'
+
+# 获取所有配置文件
+config_files = []
+for file in glob('config/*'):
+    config_files.append(('share/' + package_name + '/config', [file]))
+
+# 获取所有launch文件
+launch_files = []
+for file in glob('launch/*'):
+    launch_files.append(('share/' + package_name + '/launch', [file]))
+
+setup(
+    name=package_name,
+    version='0.0.0',
+    packages=[package_name],
+    data_files=[
+        ('share/ament_index/resource_index/packages',
+            ['resource/' + package_name]),
+        ('share/' + package_name, ['package.xml']),
+    ] + config_files + launch_files,
+    install_requires=['setuptools'],
+    zip_safe=True,
+    maintainer='ROS User',
+    maintainer_email='user@example.com',
+    description='机械臂抓取仿真API',
+    license='Apache-2.0',
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [
+            'motion_api_test = motion_api.motion_planning_python_api:main',
+            'pick_drop = motion_api.pick_drop:main',
+        ],
+    },
+)

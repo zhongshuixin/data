@@ -1,0 +1,1 @@
+/home/sx/week04/learnarm_ws/src/robot_arm_config/launch/moveit_rviz.launch.py

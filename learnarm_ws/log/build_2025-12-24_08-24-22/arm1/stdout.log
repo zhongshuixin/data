@@ -1,0 +1,18 @@
+running develop
+running egg_info
+writing arm1.egg-info/PKG-INFO
+writing dependency_links to arm1.egg-info/dependency_links.txt
+writing entry points to arm1.egg-info/entry_points.txt
+writing requirements to arm1.egg-info/requires.txt
+writing top-level names to arm1.egg-info/top_level.txt
+reading manifest file 'arm1.egg-info/SOURCES.txt'
+writing manifest file 'arm1.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages/arm1.egg-link (link to .)
+Installing joint_control script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+Installing test_arm_action script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+Installing test_arm_hand script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+Installing test_arm_publisher script to /home/sx/week04/learnarm_ws/install/arm1/lib/arm1
+
+Installed /home/sx/week04/learnarm_ws/build/arm1
+running symlink_data

@@ -1,0 +1,19 @@
+[3.357s] Invoking command in '/home/sx/week04/learnarm_ws/build/motion_api': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/motion_api/build --no-deps symlink_data
+[3.946s] running develop
+[4.299s] running egg_info
+[4.331s] writing motion_api.egg-info/PKG-INFO
+[4.332s] writing dependency_links to motion_api.egg-info/dependency_links.txt
+[4.336s] writing entry points to motion_api.egg-info/entry_points.txt
+[4.336s] writing requirements to motion_api.egg-info/requires.txt
+[4.336s] writing top-level names to motion_api.egg-info/top_level.txt
+[4.407s] reading manifest file 'motion_api.egg-info/SOURCES.txt'
+[4.426s] writing manifest file 'motion_api.egg-info/SOURCES.txt'
+[4.472s] running build_ext
+[4.472s] Creating /home/sx/week04/learnarm_ws/install/motion_api/lib/python3.12/site-packages/motion-api.egg-link (link to .)
+[4.474s] Installing motion_api_test script to /home/sx/week04/learnarm_ws/install/motion_api/lib/motion_api
+[4.475s] Installing pick_drop script to /home/sx/week04/learnarm_ws/install/motion_api/lib/motion_api
+[4.475s] Installing pick_rose_drop script to /home/sx/week04/learnarm_ws/install/motion_api/lib/motion_api
+[4.476s] 
+[4.476s] Installed /home/sx/week04/learnarm_ws/build/motion_api
+[4.476s] running symlink_data
+[4.560s] Invoked command in '/home/sx/week04/learnarm_ws/build/motion_api' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/motion_api/build --no-deps symlink_data

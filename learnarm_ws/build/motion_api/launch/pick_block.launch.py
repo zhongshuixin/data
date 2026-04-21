@@ -1,0 +1,1 @@
+/home/sx/week04/learnarm_ws/src/motion_api/launch/pick_block.launch.py

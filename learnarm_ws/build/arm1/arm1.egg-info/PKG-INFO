@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: arm1
+Version: 0.0.0
+Summary: A simple arm robot package for ROS 2 Jazzy
+Maintainer: zsx
+Maintainer-email: 3425265354@qq.com
+License: MIT

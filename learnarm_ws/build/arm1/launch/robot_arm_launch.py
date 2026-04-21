@@ -1,0 +1,1 @@
+/home/sx/week04/learnarm_ws/src/arm1/launch/robot_arm_launch.py

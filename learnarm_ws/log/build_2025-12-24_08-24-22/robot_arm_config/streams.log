@@ -1,0 +1,45 @@
+[0.032s] Invoking command in '/home/sx/week04/learnarm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sx/week04/learnarm_ws/build/robot_arm_config -- -j4 -l4
+[0.203s] Invoked command in '/home/sx/week04/learnarm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sx/week04/learnarm_ws/build/robot_arm_config -- -j4 -l4
+[0.240s] Invoking command in '/home/sx/week04/learnarm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sx/week04/learnarm_ws/build/robot_arm_config
+[0.266s] -- Install configuration: ""
+[0.270s] -- Execute custom install script
+[0.277s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/ament_index/resource_index/package_run_dependencies/robot_arm_config
+[0.280s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/ament_index/resource_index/parent_prefix_path/robot_arm_config
+[0.287s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/ament_prefix_path.sh
+[0.289s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/path.sh
+[0.293s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/path.dsv
+[0.296s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.bash
+[0.298s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.sh
+[0.300s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.zsh
+[0.302s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.dsv
+[0.303s] -- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.dsv
+[0.330s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/ament_index/resource_index/packages/robot_arm_config
+[0.333s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/cmake/robot_arm_configConfig.cmake
+[0.334s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/cmake/robot_arm_configConfig-version.cmake
+[0.337s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.xml
+[0.346s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/demo.launch.py
+[0.348s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/full_demo.launch.py
+[0.350s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/gazebo.launch.py
+[0.352s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/move_group.launch.py
+[0.353s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/moveit_rviz.launch.py
+[0.355s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/rsp.launch.py
+[0.357s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/setup_assistant.launch.py
+[0.359s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/spawn_controllers.launch.py
+[0.360s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/static_virtual_joint_tfs.launch.py
+[0.362s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/warehouse_db.launch.py
+[0.366s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.gazebo.friction.urdf.xacro
+[0.367s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.gazebo.ros2_control.xacro
+[0.369s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.gazebo.urdf.xacro
+[0.371s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.ros2_control.xacro
+[0.374s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.srdf
+[0.375s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.urdf.xacro
+[0.377s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/initial_positions.yaml
+[0.378s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/joint_limits.yaml
+[0.381s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/kinematics.yaml
+[0.382s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/moveit.rviz
+[0.385s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/moveit_controllers.yaml
+[0.387s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/pilz_cartesian_limits.yaml
+[0.388s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/ros2_controllers.yaml
+[0.390s] -- Up-to-date symlink: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/.setup_assistant
+[0.397s] Invoked command in '/home/sx/week04/learnarm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sx/week04/learnarm_ws/build/robot_arm_config

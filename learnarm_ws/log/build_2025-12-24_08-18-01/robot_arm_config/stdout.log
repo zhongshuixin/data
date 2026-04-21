@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (3.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/sx/week04/learnarm_ws/build/robot_arm_config
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/ament_index/resource_index/package_run_dependencies/robot_arm_config
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/ament_index/resource_index/parent_prefix_path/robot_arm_config
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/ament_prefix_path.sh
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/path.sh
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/environment/path.dsv
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.bash
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.sh
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.zsh
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/local_setup.dsv
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.dsv
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/ament_index/resource_index/packages/robot_arm_config
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/cmake/robot_arm_configConfig.cmake
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/cmake/robot_arm_configConfig-version.cmake
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.xml
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/demo.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/full_demo.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/gazebo.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/move_group.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/moveit_rviz.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/rsp.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/setup_assistant.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/spawn_controllers.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/launch/warehouse_db.launch.py
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.gazebo.friction.urdf.xacro
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.gazebo.ros2_control.xacro
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.gazebo.urdf.xacro
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.ros2_control.xacro
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.srdf
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/arm.urdf.xacro
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/initial_positions.yaml
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/joint_limits.yaml
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/kinematics.yaml
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/moveit.rviz
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/moveit_controllers.yaml
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/config/ros2_controllers.yaml
+-- Symlinking: /home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/.setup_assistant

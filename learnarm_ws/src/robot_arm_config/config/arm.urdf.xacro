@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="arm">
+    <!-- Xacro 顶层：将基础 URDF 与 ros2_control 片段组合为 MoveIt 使用的整体模型 -->
+    <xacro:arg name="initial_positions_file" default="initial_positions.yaml" />
+
+    <!-- 引入基础机械臂 URDF（不包含 ros2_control 部分） -->
+    <xacro:include filename="$(find arm1)/urdf/robot_arm.urdf" />
+
+    <!-- 引入 ros2_control 片段：根据初始位置文件创建 FakeSystem 与各接口 -->
+    <xacro:include filename="arm.ros2_control.xacro" />
+
+
+    <!-- 实例化 ros2_control 宏
+         - name：硬件系统名称（仿真用 FakeSystem）
+         - initial_positions_file：各关节的初始位置（yaml）
+    -->
+    <xacro:arm_ros2_control name="FakeSystem" initial_positions_file="$(arg initial_positions_file)"/>
+
+</robot>

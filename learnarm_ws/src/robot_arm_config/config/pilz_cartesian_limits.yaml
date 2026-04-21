@@ -1,0 +1,7 @@
+# Pilz 直线/圆弧规划器的笛卡尔限制
+# - 速度/加速度/减速度均为笛卡尔空间约束
+cartesian_limits:
+  max_trans_vel: 1.0    # 最大平移速度（m/s）
+  max_trans_acc: 2.25   # 最大平移加速度（m/s^2）
+  max_trans_dec: -5.0   # 最大平移减速度（负值表示减速）
+  max_rot_vel: 1.57     # 最大角速度（rad/s）

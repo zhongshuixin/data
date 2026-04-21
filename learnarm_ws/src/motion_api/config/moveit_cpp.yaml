@@ -1,0 +1,48 @@
+# MoveItCpp 配置文件
+# - planning_scene_monitor_options：场景监视器话题与参数
+# - planning_pipelines：启用的规划管线列表
+# - plan_request_params：默认规划请求参数（速度/加速度缩放等）
+# - 下面以命名空间形式提供各管线的专用参数（ompl_rrtc、pilz_lin、chomp_planner）
+planning_scene_monitor_options:
+  name: "planning_scene_monitor"
+  robot_description: "robot_description"
+  joint_state_topic: "/joint_states"
+  attached_collision_object_topic: "/moveit_cpp/planning_scene_monitor"
+  publish_planning_scene_topic: "/moveit_cpp/publish_planning_scene"
+  monitored_planning_scene_topic: "/moveit_cpp/monitored_planning_scene"
+  wait_for_initial_state_timeout: 10.0
+
+planning_pipelines:
+  pipeline_names: ["ompl", "pilz_industrial_motion_planner", "chomp"]
+
+plan_request_params:
+  planning_attempts: 1
+  planning_pipeline: ompl
+  max_velocity_scaling_factor: 1.0
+  max_acceleration_scaling_factor: 1.0
+
+ompl_rrtc:  # 独立规划请求的命名空间
+  plan_request_params:  # 与 moveit_cpp 单管线规划的 PlanRequestParameters 类似
+    planning_attempts: 5  # 管线尝试求解次数上限
+    planning_pipeline: ompl  # 使用的规划管线名称
+    planner_id: "RRTConnectkConfigDefault"  # 管线内具体规划器名称
+    max_velocity_scaling_factor: 1.0  # 轨迹生成阶段的速度缩放系数
+    max_acceleration_scaling_factor: 1.0  # 轨迹生成阶段的加速度缩放系数
+    planning_time: 5.0  # 规划时间预算；超时则返回失败状态
+
+pilz_lin:
+  plan_request_params:
+    planning_attempts: 1
+    planning_pipeline: pilz_industrial_motion_planner
+    planner_id: "PTP"
+    max_velocity_scaling_factor: 1.0
+    max_acceleration_scaling_factor: 1.0
+    planning_time: 0.8
+
+chomp_planner:
+  plan_request_params:
+    planning_attempts: 1
+    planning_pipeline: chomp
+    max_velocity_scaling_factor: 1.0
+    max_acceleration_scaling_factor: 1.0
+    planning_time: 1.5

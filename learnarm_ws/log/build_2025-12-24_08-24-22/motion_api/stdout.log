@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing motion_api.egg-info/PKG-INFO
+writing dependency_links to motion_api.egg-info/dependency_links.txt
+writing entry points to motion_api.egg-info/entry_points.txt
+writing requirements to motion_api.egg-info/requires.txt
+writing top-level names to motion_api.egg-info/top_level.txt
+reading manifest file 'motion_api.egg-info/SOURCES.txt'
+writing manifest file 'motion_api.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sx/week04/learnarm_ws/install/motion_api/lib/python3.12/site-packages/motion-api.egg-link (link to .)
+Installing motion_api_test script to /home/sx/week04/learnarm_ws/install/motion_api/lib/motion_api
+Installing pick_drop script to /home/sx/week04/learnarm_ws/install/motion_api/lib/motion_api
+Installing pick_rose_drop script to /home/sx/week04/learnarm_ws/install/motion_api/lib/motion_api
+
+Installed /home/sx/week04/learnarm_ws/build/motion_api
+running symlink_data

@@ -1,0 +1,285 @@
+[1.659s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[1.660s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x75e09a22b140>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75e09a22af60>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75e09a22af60>>)
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.956s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.956s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sx/week04/learnarm_ws'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.957s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.039s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.040s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.041s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['ignore', 'ignore_ament_install']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'ignore'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'ignore_ament_install'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['colcon_pkg']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'colcon_pkg'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['colcon_meta']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'colcon_meta'
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extensions ['ros']
+[2.042s] Level 1:colcon.colcon_core.package_identification:_identify(src/arm1) by extension 'ros'
+[2.054s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arm1' with type 'ros.ament_python' and name 'arm1'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ignore', 'ignore_ament_install']
+[2.054s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ignore_ament_install'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_pkg']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_pkg'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['colcon_meta']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'colcon_meta'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['ros']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'ros'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['cmake', 'python']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'cmake'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extensions ['python_setup_py']
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/config) by extension 'python_setup_py'
+[2.055s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ignore', 'ignore_ament_install']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ignore_ament_install'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_pkg']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_pkg'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['colcon_meta']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'colcon_meta'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['ros']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'ros'
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['cmake', 'python']
+[2.056s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'cmake'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extensions ['python_setup_py']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch) by extension 'python_setup_py'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['ignore', 'ignore_ament_install']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'ignore'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'ignore_ament_install'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['colcon_pkg']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'colcon_pkg'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['colcon_meta']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'colcon_meta'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extensions ['ros']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(src/motion_api) by extension 'ros'
+[2.060s] DEBUG:colcon.colcon_core.package_identification:Package 'src/motion_api' with type 'ros.ament_python' and name 'motion_api'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['ignore', 'ignore_ament_install']
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'ignore'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'ignore_ament_install'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['colcon_pkg']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'colcon_pkg'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['colcon_meta']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'colcon_meta'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extensions ['ros']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_arm_config) by extension 'ros'
+[2.063s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_arm_config' with type 'ros.ament_cmake' and name 'robot_arm_config'
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.064s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.146s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.167s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 406 installed packages in /opt/ros/jazzy
+[2.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_args' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_target' from command line to 'None'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_clean_cache' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_clean_first' from command line to 'False'
+[2.262s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'cmake_force_configure' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'ament_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'catkin_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'arm1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.263s] DEBUG:colcon.colcon_core.verb:Building package 'arm1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sx/week04/learnarm_ws/build/arm1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sx/week04/learnarm_ws/install/arm1', 'merge_install': False, 'path': '/home/sx/week04/learnarm_ws/src/arm1', 'symlink_install': True, 'test_result_base': None}
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_target' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_clean_cache' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_clean_first' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'cmake_force_configure' from command line to 'False'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'ament_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'catkin_cmake_args' from command line to 'None'
+[2.263s] Level 5:colcon.colcon_core.verb:set package 'motion_api' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.264s] DEBUG:colcon.colcon_core.verb:Building package 'motion_api' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sx/week04/learnarm_ws/build/motion_api', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sx/week04/learnarm_ws/install/motion_api', 'merge_install': False, 'path': '/home/sx/week04/learnarm_ws/src/motion_api', 'symlink_install': True, 'test_result_base': None}
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_args' from command line to 'None'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_target' from command line to 'None'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_clean_cache' from command line to 'False'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_clean_first' from command line to 'False'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'cmake_force_configure' from command line to 'False'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'ament_cmake_args' from command line to 'None'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'catkin_cmake_args' from command line to 'None'
+[2.264s] Level 5:colcon.colcon_core.verb:set package 'robot_arm_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.264s] DEBUG:colcon.colcon_core.verb:Building package 'robot_arm_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sx/week04/learnarm_ws/build/robot_arm_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sx/week04/learnarm_ws/install/robot_arm_config', 'merge_install': False, 'path': '/home/sx/week04/learnarm_ws/src/robot_arm_config', 'symlink_install': True, 'test_result_base': None}
+[2.264s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.266s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.267s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sx/week04/learnarm_ws/src/arm1' with build type 'ament_python'
+[2.267s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm1', 'ament_prefix_path')
+[2.293s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.293s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/hook/ament_prefix_path.ps1'
+[2.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/hook/ament_prefix_path.dsv'
+[2.299s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/hook/ament_prefix_path.sh'
+[2.302s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.302s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.312s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sx/week04/learnarm_ws/src/motion_api' with build type 'ament_python'
+[2.312s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_api', 'ament_prefix_path')
+[2.313s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/hook/ament_prefix_path.ps1'
+[2.314s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/hook/ament_prefix_path.dsv'
+[2.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/hook/ament_prefix_path.sh'
+[2.316s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.316s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.792s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sx/week04/learnarm_ws/src/arm1'
+[2.792s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.792s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.238s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sx/week04/learnarm_ws/src/motion_api'
+[3.239s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.239s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.047s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sx/week04/learnarm_ws/build/motion_api': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/motion_api/build --no-deps symlink_data
+[6.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sx/week04/learnarm_ws/build/arm1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/arm1/build --no-deps symlink_data
+[7.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_api', 'pythonpath_develop')
+[7.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sx/week04/learnarm_ws/build/motion_api' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/motion_api/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/motion_api/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/motion_api/build --no-deps symlink_data
+[7.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/build/motion_api/share/motion_api/hook/pythonpath_develop.ps1'
+[7.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/build/motion_api/share/motion_api/hook/pythonpath_develop.dsv'
+[7.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/build/motion_api/share/motion_api/hook/pythonpath_develop.sh'
+[7.371s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/motion_api' for CMake module files
+[7.372s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/motion_api' for CMake config files
+[7.374s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/motion_api/lib'
+[7.374s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/motion_api/bin'
+[7.374s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/motion_api/lib/pkgconfig/motion_api.pc'
+[7.375s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/motion_api/lib/python3.12/site-packages'
+[7.375s] Level 1:colcon.colcon_core.shell:create_environment_hook('motion_api', 'pythonpath')
+[7.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/hook/pythonpath.ps1'
+[7.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/hook/pythonpath.dsv'
+[7.377s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/hook/pythonpath.sh'
+[7.378s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/motion_api/bin'
+[7.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(motion_api)
+[7.379s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/package.ps1'
+[7.382s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/package.dsv'
+[7.387s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/package.sh'
+[7.391s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/package.bash'
+[7.396s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/motion_api/share/motion_api/package.zsh'
+[7.401s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sx/week04/learnarm_ws/install/motion_api/share/colcon-core/packages/motion_api)
+[7.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm1', 'pythonpath_develop')
+[7.406s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sx/week04/learnarm_ws/build/arm1' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sx/week04/learnarm_ws/build/arm1/build --no-deps symlink_data
+[7.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/build/arm1/share/arm1/hook/pythonpath_develop.ps1'
+[7.409s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/build/arm1/share/arm1/hook/pythonpath_develop.dsv'
+[7.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/build/arm1/share/arm1/hook/pythonpath_develop.sh'
+[7.410s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/arm1' for CMake module files
+[7.412s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/arm1' for CMake config files
+[7.413s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/arm1/lib'
+[7.413s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/arm1/bin'
+[7.414s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/arm1/lib/pkgconfig/arm1.pc'
+[7.414s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages'
+[7.414s] Level 1:colcon.colcon_core.shell:create_environment_hook('arm1', 'pythonpath')
+[7.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/hook/pythonpath.ps1'
+[7.417s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/hook/pythonpath.dsv'
+[7.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/hook/pythonpath.sh'
+[7.419s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/arm1/bin'
+[7.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arm1)
+[7.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/package.ps1'
+[7.420s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/package.dsv'
+[7.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/package.sh'
+[7.421s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/package.bash'
+[7.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/arm1/share/arm1/package.zsh'
+[7.422s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sx/week04/learnarm_ws/install/arm1/share/colcon-core/packages/arm1)
+[7.423s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sx/week04/learnarm_ws/src/robot_arm_config' with build type 'ament_cmake'
+[7.424s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sx/week04/learnarm_ws/src/robot_arm_config'
+[7.424s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.424s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sx/week04/learnarm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sx/week04/learnarm_ws/src/robot_arm_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sx/week04/learnarm_ws/install/robot_arm_config
+[10.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sx/week04/learnarm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/sx/week04/learnarm_ws/src/robot_arm_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sx/week04/learnarm_ws/install/robot_arm_config
+[10.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sx/week04/learnarm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sx/week04/learnarm_ws/build/robot_arm_config -- -j4 -l4
+[10.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sx/week04/learnarm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sx/week04/learnarm_ws/build/robot_arm_config -- -j4 -l4
+[10.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sx/week04/learnarm_ws/build/robot_arm_config': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sx/week04/learnarm_ws/build/robot_arm_config
+[11.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_config)
+[11.741s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config' for CMake module files
+[11.743s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sx/week04/learnarm_ws/build/robot_arm_config' returned '0': AMENT_PREFIX_PATH=/home/sx/week04/learnarm_ws/install/arm1:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/sx/week04/learnarm_ws/build/arm1:/home/sx/week04/learnarm_ws/install/arm1/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sx/week04/learnarm_ws/build/robot_arm_config
+[11.744s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config' for CMake config files
+[11.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_config', 'cmake_prefix_path')
+[11.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.ps1'
+[11.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.dsv'
+[11.748s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.sh'
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/bin'
+[11.749s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/lib/pkgconfig/robot_arm_config.pc'
+[11.750s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/lib/python3.12/site-packages'
+[11.750s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/bin'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.ps1'
+[11.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.dsv'
+[11.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.sh'
+[11.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.bash'
+[11.754s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.zsh'
+[11.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sx/week04/learnarm_ws/install/robot_arm_config/share/colcon-core/packages/robot_arm_config)
+[11.755s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_arm_config)
+[11.756s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config' for CMake module files
+[11.757s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config' for CMake config files
+[11.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_arm_config', 'cmake_prefix_path')
+[11.758s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.ps1'
+[11.759s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.dsv'
+[11.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/hook/cmake_prefix_path.sh'
+[11.762s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/bin'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/lib/pkgconfig/robot_arm_config.pc'
+[11.763s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/lib/python3.12/site-packages'
+[11.764s] Level 1:colcon.colcon_core.environment:checking '/home/sx/week04/learnarm_ws/install/robot_arm_config/bin'
+[11.764s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.ps1'
+[11.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.dsv'
+[11.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.sh'
+[11.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.bash'
+[11.771s] INFO:colcon.colcon_core.shell:Creating package script '/home/sx/week04/learnarm_ws/install/robot_arm_config/share/robot_arm_config/package.zsh'
+[11.773s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sx/week04/learnarm_ws/install/robot_arm_config/share/colcon-core/packages/robot_arm_config)
+[11.775s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.777s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.777s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.839s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.840s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.840s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[11.905s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[11.906s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sx/week04/learnarm_ws/install/local_setup.ps1'
+[11.911s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sx/week04/learnarm_ws/install/_local_setup_util_ps1.py'
+[11.915s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sx/week04/learnarm_ws/install/setup.ps1'
+[11.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sx/week04/learnarm_ws/install/local_setup.sh'
+[11.922s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sx/week04/learnarm_ws/install/_local_setup_util_sh.py'
+[11.923s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sx/week04/learnarm_ws/install/setup.sh'
+[11.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sx/week04/learnarm_ws/install/local_setup.bash'
+[11.928s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sx/week04/learnarm_ws/install/setup.bash'
+[11.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sx/week04/learnarm_ws/install/local_setup.zsh'
+[11.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sx/week04/learnarm_ws/install/setup.zsh'
