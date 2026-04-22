@@ -3,7 +3,7 @@
 <package format="3">
   <name>arm1</name>
   <version>0.0.0</version>
-  <description>A simple arm robot package for ROS 2 Jazzy</description>
+  <description>A simple arm robot package for ROS 2 Humble</description>
   <maintainer email="sx@todo.todo">sx</maintainer>  <!-- 请更新 -->
   <license>MIT</license>
 

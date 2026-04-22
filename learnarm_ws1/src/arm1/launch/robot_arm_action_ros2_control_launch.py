@@ -34,7 +34,7 @@ def generate_launch_description():
     )
     controllers_node=Node(
             package="controller_manager",
-            executable="spawner",
+            executable="spawner.py",
             arguments=['arm_controller', 'hand_controller', 'joint_state_broadcaster'],
             output="screen",
             name='controllers',

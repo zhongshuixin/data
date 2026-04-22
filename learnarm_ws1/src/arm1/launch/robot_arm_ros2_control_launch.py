@@ -29,25 +29,25 @@ def generate_launch_description():
         output="screen",
     )
 
-    # 3. 启动各个控制器 (Jazzy中使用 spawner)
-    # 注意：Jazzy中正确的可执行文件名是 `spawner`，不是 `spawner.py`
+    # 3. 启动各个控制器 (Humble中使用 spawner.py)
+    # 注意：Humble中正确的可执行文件名是 `spawner.py`
     joint_state_broadcaster_spawner = Node(
         package="controller_manager",
-        executable="spawner",  # 修改：去掉 .py 后缀
+        executable="spawner.py",
         arguments=["joint_state_broadcaster", "-c", "/controller_manager"],
         output="screen",
     )
     
     arm_controller_spawner = Node(
         package="controller_manager",
-        executable="spawner",  # 修改：去掉 .py 后缀
+        executable="spawner.py",
         arguments=["arm_controller", "-c", "/controller_manager"],
         output="screen",
     )
     
     hand_controller_spawner = Node(
         package="controller_manager",
-        executable="spawner",  # 修改：去掉 .py 后缀
+        executable="spawner.py",
         arguments=["hand_controller", "-c", "/controller_manager"],
         output="screen",
     )
